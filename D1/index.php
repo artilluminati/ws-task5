@@ -67,6 +67,8 @@ function getMonthCalendar($month, $year) {
     echo '<div class="fc-calendar fc-five-rows">';
     echo '<div class="fc-head">';
 
+    
+
     // Заполняем массив календаря днями месяца
     for ($i = 0; $i < 5; $i++) {
         for ($j = ($i == 0 ? $firstDay -1 : 0); $j < 7; $j++) {
